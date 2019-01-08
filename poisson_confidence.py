@@ -7,7 +7,7 @@ S     = 1.645 # The Gaussian sigma level corresponding to 95% confidence
 beta  = 0.031 # Lower limit parameter appropriate for 95% confidence
 gamma = -2.50 # Lower limit parameter appropriate for 95% confidence
 
-for n in range(0,110):
+for n in range(0,150):
     lower = 0.0
     # Gehrels 1986 equation 9
     upper = (n+1)*(1.0 - (1.0/(9*(n+1.0))) + (S/(3.0*m.sqrt(n+1.0))))**3 
