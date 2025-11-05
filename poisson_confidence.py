@@ -14,4 +14,4 @@ for n in range(0,150):
     if ( n>0 ):
         # Gehrels 1986 equation 12
         lower = n*(1.0 - (1.0/(9.0*n)) - (S/(3.0*m.sqrt(n))) + beta*n**gamma)**3 
-    print "%.1f %d %.1f" % (upper, n,lower)
+    print ("%.1f %d %.1f" % (upper, n,lower))
